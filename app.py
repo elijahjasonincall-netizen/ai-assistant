@@ -24,7 +24,10 @@ def format_response(content: str) -> str:
     return f"## Formatted Response\n{content}"
 
 
-model = ChatOllama(model="llama3.2")
+model = ChatGroq(
+        model="llama-3.1-8b-instant",
+        api_key=st.secrets["GROQ_API_KEY"]
+    )
 
 research_agent = create_react_agent(model=model, tools=[search_web])
 writer_agent = create_react_agent(
