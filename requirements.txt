@@ -1,0 +1,5 @@
+pip install streamlit
+pip install duckduckgo-search
+pip install langgraph
+pip install langchain-ollama
+pip install langchain-core
