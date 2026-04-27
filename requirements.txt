@@ -1,5 +1,13 @@
-pip install streamlit
-pip install duckduckgo-search
-pip install langgraph
-pip install langchain-ollama
-pip install langchain-core
+streamlit
+langchain
+langchain-community
+langchain-text-splitters
+langchain-huggingface
+langchain-chroma
+langchain-groq
+sentence-transformers
+chromadb
+pypdf
+duckduckgo-search
+langgraph
+langchain-core
