@@ -2,7 +2,7 @@ import streamlit as st
 import streamlit as st
 from duckduckgo_search import DDGS
 from langgraph.prebuilt import create_react_agent
-from langchain_ollama import ChatOllama
+from langchain_groq import ChatGroq
 from langchain_core.tools import tool
 from langchain_core.messages import HumanMessage
 
